@@ -1,0 +1,58 @@
+* {
+    font-family: verdana;
+}
+
+body {
+    background-image: url(nature-oceans.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.container {
+    background-color: rgba(0,0,0,0.7);
+    width: 300px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+h1{
+    color: #fafafa;
+    text-align: left;
+    border-bottom: 4px solid blue;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+label {
+    text-align: left;
+    color: #fafafa;
+    
+
+}
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+button {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    background-color: #fafafa;
+    color: black;
+    font-size: 10px;
+
+}
+
+button:hover {
+    background-color: #3636fb;
+    color: #fafafa;
+    font-weight: bold;
+}
